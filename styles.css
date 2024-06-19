@@ -15,10 +15,11 @@ header {
     background-color: #333;
     color: #fff;
     padding: 1em 0;
+    text-align: center;
 }
 
 header h1 {
-    text-align: center;
+    margin-bottom: 0.5em;
 }
 
 nav ul {
@@ -41,15 +42,19 @@ main {
     padding: 2em;
 }
 
-.projects, .contact-form, .project-detail {
-    max-width: 800px;
-    margin: 0 auto;
+#about-me, #projects, #skills {
+    margin-bottom: 2em;
 }
 
-.project-card {
-    border: 1px solid #ddd;
-    padding: 1em;
-    margin-bottom: 1em;
+.skills-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.skills-icons img {
+    width: 50px;
+    height: 50px;
 }
 
 footer {
